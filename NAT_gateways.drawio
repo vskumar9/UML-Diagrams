@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-21T13:04:51.484Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="LpeRXSz6SYs7gsDwqOp-" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-21T13:07:00.031Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="nkNgthZ-DBVvugwa06Yv" version="24.2.7" type="github">
   <diagram name="Page-1" id="njk5iBkBE9CvOf_8VzKu">
     <mxGraphModel dx="1290" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -51,6 +51,27 @@
         </mxCell>
         <mxCell id="uufKs7SwVAfGpCCRbVz5-19" value="EC2- MY DB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xofew-_ntW3iV3NjNR3a-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xofew-_ntW3iV3NjNR3a-1" target="uufKs7SwVAfGpCCRbVz5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xofew-_ntW3iV3NjNR3a-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xofew-_ntW3iV3NjNR3a-1" target="uufKs7SwVAfGpCCRbVz5-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="40" />
+              <mxPoint x="820" y="40" />
+              <mxPoint x="820" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xofew-_ntW3iV3NjNR3a-1" value="NAT Gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xofew-_ntW3iV3NjNR3a-3" value="In diagram EC2 connect to route" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xofew-_ntW3iV3NjNR3a-5" value="In AWS practical way NAT gateway is connect to routes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="500" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
